@@ -1,12 +1,12 @@
 {
-  "name": "DANUWA-MD",
-  "version": "1.0.0",
-  "description": "A Powerfull Whatsapp Bot",
+  "name": "💖 PRINCESS LUNA 💖",
+  "version": "2.0.0",
+  "description": "LUNA MD 💖 WHATSAPP BOT CREATED BY HASHAN.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DANUWA-MD",
-    "stop": "pm2 stop DANUWA-MD",
-    "restart": "pm2 restart DANUWA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Luna",
+    "stop": "pm2 stop Luna",
+    "restart": "pm2 restart Luna"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.16",
