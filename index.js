@@ -87,9 +87,9 @@ async function connectToWA() {
     } else if (connection === 'open') {
       console.log('💖 PRINCESS LUNA 💖 connected to WhatsApp Successfully ✔️');
 
-      const up = `LUNA-MD connected 💖✅\n\nPREFIX: ${prefix}`;
+      const up = `💖 PRINCESS LUNA 💖 connected to WhatsApp Successfully ✔️\n\nPREFIX: ${prefix}`;
       await danuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true` },
+        image: { url: `https://raw.githubusercontent.com/Hashan000-1/IMAGE-TO-URL/refs/heads/main/LUNA%20MD.jpg` },
         caption: up
       });
 
@@ -179,7 +179,7 @@ async function connectToWA() {
 ensureSessionFile();
 
 app.get("/", (req, res) => {
-  res.send("Hey, DANUWA-MD started✅");
+  res.send("Hey, LUNA-MD started✅");
 });
 
 app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
